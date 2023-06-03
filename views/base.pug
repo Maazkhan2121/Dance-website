@@ -1,0 +1,35 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Maaz Dance Academy
+    block scripts
+    block style 
+
+    
+  body
+    nav#navbar 
+        ul 
+           #logo 
+            img(src="/static/logo.png")
+            | MZA
+           li #[a(href="/") Home]
+           li #[a(href="/") About us]
+           li #[a(href="/") Services ]
+           li #[a(href="/contact") Contact us ]
+block content 
+    h3 Contact Us
+    div.container
+    form(action="/Contact" method="post", class="myform")
+        input(type="text", class="myinput" , name="name", placeholder="Enter your name")
+        input(type="text", class="myinput" , name="Phone Number", placeholder="Enter your number")
+        input(type="text", class="myinput" , name="Address", placeholder="Enter your Address")
+        input(type="text", class="myinput" , name="Email", placeholder="Enter your Email")
+        button.btn 
+         |  submit
+    
+
+    block footer 
+     footer#footer 
+           | copyright 2023  @MaazAcademy.com : ALL right reseved 
+     

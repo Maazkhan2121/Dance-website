@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@1,700&family=Shantell+Sans:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    margin-right: 70px;
+
+}
+
+#logo img {
+    display: flex;
+    height: 40px;
+    filter: invert(-1);
+}
+
+
+#navbar {
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#navbar ul {
+    background-color: rgb(245, 14, 14);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 6px 10px;
+}
+
+#navbar li {
+    list-style: none;
+
+
+}
+
+
+#navbar li a {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 7px 11px;
+    color: aliceblue;
+}
+
+#navbar li a:hover {
+    color: black;
+    text-decoration: none;
+    padding: 7px 11px;
+}
+
+#introsection {
+    background: center /cover no-repeat url(/static/bg1.jpg);
+    height: 600px;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 3rem;
+
+}
+
+
+#introsection div.small {
+    font-size: 1.8rem;
+}
+
+#Missionsection {
+    text-align: center;
+     margin: auto;
+
+
+}
+
+#Missionsection h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+   background-color:rgb(245, 14, 14);
+   
+}
+
+.card {
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 20px;
+    width: 350px;
+    margin: 14px 20px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.card h4 {
+    font-family: 'Shantell Sans', cursive;
+    margin: 12px 44px;
+    color: white;
+}
+
+.car-box {
+    margin: 4px;
+
+}
+
+.card-content {
+    font-size: 14px;
+    color: white;
+}
+
+#sponsorsection {
+    height: 200px;
+    background-color: rgb(240, 239, 193);
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sponsorsection h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+
+#sponsor {
+    height: 60px;
+    margin: 40px 50px;
+
+}
+
+.image {
+
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#footer {
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+
+}

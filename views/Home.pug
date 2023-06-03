@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+ 
+block style 
+   style
+      include ../static/style.css
+
+block content 
+        section#introsection 
+           div Welcome to Maaz Dance Academy 
+           div.small Enjoy Dance with us
+
+        section#Missionsection 
+            h2 Our Mission
+            section.navbar
+
+              div.card
+                 h4  Dancing teaching
+                 div.card-box
+                    div.card-img
+                        img(src="/static/logo1.png", )
+                 div.card-content
+                        p we have best teachers
+
+              div.card
+                 h4 The way you like dance
+                 div.card-box
+                    div.card-img
+                         img(src="/static/logo2.png")
+                 div.card-content
+                         p our goal to make a best dancer 
+
+              div.card
+                 h4 Dancing practice
+                 div.card-box
+                   div.card-img
+                        img(src="/static/logo3.png")
+                 div.card-content
+                         p we have several dancing practice seasons
+
+        section#sponsorsection 
+           h2 SPONSORED BY
+             div#sponsor 
+                img(src="/static/1.png", alt="sponsor image" ,class="image")
+                img(src="/static/2.png", alt="sponsor image" ,class="image")
+                img(src="/static/3.png", alt="sponsor image" ,class="image")
+                 
+             block footer
+                    
+                footer#footer 
+                   | copyright 2023  @MaazAcademy.com : ALL right reseved      

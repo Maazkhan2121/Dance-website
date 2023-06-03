@@ -1,0 +1,31 @@
+h3{
+    text-align: center;
+    padding-top:  13px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.myinput{
+    text-align: center;
+    margin: 9px;
+    padding: 5px 40px;
+    font-family: 'Shantell Sans', cursive;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+} 
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 14px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn{
+    margin: 3px 4px;
+    padding: 4px 10px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
